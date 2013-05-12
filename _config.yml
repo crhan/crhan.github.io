@@ -1,2 +1,5 @@
 name: I'm Crhan
 pygments: true
+
+permalink: /:year/:month/:title
+assets: /assets

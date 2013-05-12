@@ -16,4 +16,4 @@ uniq_id: '2012-09-23'
 
 ![][1]
 
-[1]: {{ site.url }}/assets/git-status-乱码.png
+[1]: {{ site.assets }}/assets/git-status-乱码.png
