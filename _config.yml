@@ -3,3 +3,6 @@ pygments: true
 
 permalink: /:year/:month/:title
 assets: /assets
+
+disqus:
+  shortname: imcrhan
