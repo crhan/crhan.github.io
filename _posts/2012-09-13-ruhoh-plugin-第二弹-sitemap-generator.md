@@ -17,9 +17,7 @@ tags:
 可以有
 
  - `<lastmod>`: 用 [W3C Datetime][5] 或者 *YYYY-MM-DD* 来描述最后修改时间
- 
  - `<changefreq>`: 可用以下几种内容来描述该页面的更新频率
-
    - always
    - hourly
    - daily
@@ -27,7 +25,6 @@ tags:
    - monthly
    - yearly
    - never
-
  -  `<priority>`: 用来描述同一站点里面页面的相对权重, 默认 0.5 (意在通过搜索引擎搜出你自己站点多个页面的时候可以通过这个属性进行自定义排序, 权重大的排在前面. 你设得再大也不能跑到别人前面去啦)
 
 参考了 [ruhoh.rb][2] 的 [rss.rb][3] 用的 `Nokogiri::XML::Builder` 搞成的简易工具. 顺便还支持了一些小的自定义, 具体的还请移步 [Ruhoh Sitemap Generator][4]
