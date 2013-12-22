@@ -5,7 +5,12 @@ date: '2013-12-22'
 description: 
 categories: Ruby
 tags: [Ruby]
+uniq_id: rbenv_system_wide_install
+
 ---
+
+让 rbenv 良好的兼容 linux 下多用户共同使用一个 rbenv 的场景
+
 ## 起因
 
 是 @luikore 吕大神的帖子 [[姨妈] 终于把 rvm 换成 rbenv 了](http://ruby-china.org/topics/16073), 讨论 rbenv 比之 rvm 不足的地方, 我列了这么四点
@@ -39,7 +44,7 @@ tags: [Ruby]
 这部分没有写在脚本里, 按照两步走:
 
 1. 离线安装 rbenv 和 ruby-install: 简单, 打个 tar 包就好了
-2. 离线安装 ruby: 简单, 建立一个 $RBENV_PREFIX/cache 文件夹, 然后把 ruby 源代码放进去就好了
+2. 离线安装 ruby: 简单, 建立一个 `$RBENV_PREFIX/cache` 文件夹, 然后把 ruby 源代码放进去就好了
 
 > 参考资料: [Package download caching](https://github.com/sstephenson/ruby-build#package-download-caching)
 

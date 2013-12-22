@@ -12,7 +12,7 @@ paginate: 5
 production_url: "http://crhan.github.io/"
 
 disqus:
-  shortname: imcrhan
+  shortname: crhan
 
 author:
   name: "ruohan.chen 陈若涵"
