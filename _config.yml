@@ -1,5 +1,6 @@
 name: I'm Crhan
 pygments: true
+markdown: redcarpet
 
 permalink: /:year/:month/:title
 assets: /assets
