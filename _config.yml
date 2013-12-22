@@ -14,6 +14,9 @@ production_url: "http://crhan.github.io/"
 disqus:
   shortname: crhan
 
+google_analytics:
+  id: "UA-23112018-7"
+
 author:
   name: "ruohan.chen 陈若涵"
   job: "SA@Alibaba-inc"
