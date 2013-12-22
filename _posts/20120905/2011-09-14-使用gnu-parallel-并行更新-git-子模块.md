@@ -16,18 +16,20 @@ tags: [Vim]
 
 用法很简单，这里就直接给出可用的脚本了，将下面的脚本放到git的根目录下运行即可
 
-	#!/bin/sh
-	PATH="/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin"
-	CWD=$( cd $(dirname $0) && pwd )
-	sub_modules=$(git submodule status |awk '{print $2}')
-	 
-	if [ -n "$sub_modules" ]
-	then
-	    if [ -x "$(which parallel)" ];then
-	        parallel -i sh -c "cd {};pwd;git pull" -- $sub_modules
-	    else
-	        echo ' * Error： Util `Parallel` not found'
-	    fi
-	else
-	    echo " * Error: Not any git submodules find"
-	fi
+{% highlight bash %}
+#!/bin/sh
+PATH="/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin"
+CWD=$( cd $(dirname $0) && pwd )
+sub_modules=$(git submodule status |awk '{print $2}')
+ 
+if [ -n "$sub_modules" ]
+then
+    if [ -x "$(which parallel)" ];then
+        parallel -i sh -c "cd {};pwd;git pull" -- $sub_modules
+    else
+        echo ' * Error： Util `Parallel` not found'
+    fi
+else
+    echo " * Error: Not any git submodules find"
+fi
+{% endhighlight %}
