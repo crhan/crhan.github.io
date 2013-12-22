@@ -56,4 +56,4 @@ linux 的安全性问题就不赘言了, 总之你需要用一个独立的帐号
 
 ## 安装脚本参考
 
-{% gist 8064624 %}
+<div class="show-gist" data-gist-id="8064624" />

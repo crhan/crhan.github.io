@@ -29,7 +29,7 @@ tags:
 
 参考了 [ruhoh.rb][2] 的 [rss.rb][3] 用的 `Nokogiri::XML::Builder` 搞成的简易工具. 顺便还支持了一些小的自定义, 具体的还请移步 [Ruhoh Sitemap Generator][4]
 
-{% gist 3705998 %}
+<div class="show-gist" data-gist-id="3705998"></div>
 
 [1]: http://www.sitemaps.org/protocol.html#xmlTagDefinitions "Sitemaps XML format"
 [2]: https://github.com/ruhoh/ruhoh.rb/ "http://ruhoh.com"
