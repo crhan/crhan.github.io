@@ -1,9 +1,25 @@
 name: I'm Crhan
-pygments: true
 markdown: redcarpet
+lsi: false
+pygments: true
+
 
 permalink: /:year/:month/:title
 assets: /assets
 
+paginate: 5
+
+production_url: "http://crhan.github.io/"
+
 disqus:
   shortname: imcrhan
+
+author:
+  name: "ruohan.chen 陈若涵"
+  job: "SA@Alibaba-inc"
+  email:
+    show_name: "墨泪"
+    address: "ruohan.chen@alibaba-inc.com"
+    subject: "Hi crhan"
+  github: "crhan"
+  twitter: "ruohanc"
