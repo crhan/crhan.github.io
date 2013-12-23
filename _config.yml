@@ -26,3 +26,9 @@ author:
     subject: "Hi crhan"
   github: "crhan"
   twitter: "ruohanc"
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - CNAME
