@@ -7,7 +7,8 @@ pygments: true
 permalink: /:year/:month/:title
 assets: /assets
 
-paginate: 5
+paginate: 10
+paginate_path: "page:num"
 
 production_url: "http://crhan.github.io/"
 
