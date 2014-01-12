@@ -17,6 +17,7 @@ disqus:
 
 google_analytics:
   id: "UA-23112018-7"
+  domain: "crhan.com"
 
 author:
   name: "ruohan.chen 陈若涵"
