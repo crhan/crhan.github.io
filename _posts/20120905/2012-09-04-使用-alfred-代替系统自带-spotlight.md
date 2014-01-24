@@ -24,4 +24,4 @@ tags: [MacOS, Alfred]
 最后确认一下 Alfred -> Alfred Preferences -> Advanced -> Keyboard -> Force Keybord 是不是 U.S. 键盘. 这个功能可以强制指定使用 Alfred 时使用的输入法
 
 [Alfred]: http://www.alfredapp.com/ "Alfred"
-[11]: {{urls.media}}/disable_spotlight_shortcut.png
+[11]: {{site.assets}}/disable_spotlight_shortcut.png

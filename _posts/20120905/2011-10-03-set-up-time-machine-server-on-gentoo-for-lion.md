@@ -49,4 +49,4 @@ rc
 	# Make Time Machine could use disks through the network
 	defaults write com.apple.systempreferences TMShowUnsupportedNetworkVolumes 1
 
-![]({{urls.media}}/time_machine.png)
+![]({{site.assets}}/time_machine.png)

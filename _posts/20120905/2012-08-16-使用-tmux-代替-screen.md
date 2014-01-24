@@ -10,7 +10,7 @@ tags: [Tmux, Screen]
 [Byobu]: https://launchpad.net/byobu/ "byobu"
 [Screen]: http://www.gnu.org/software/screen/ "GNU Screen"
 [tmux]: http://tmux.sourceforge.net/ "tmux is a terminal multiplexe"
-[2]: {{urls.media}}/tmux_split_screen.png
+[2]: {{site.assets}}/tmux_split_screen.png
 [3]: https://wiki.freebsdchina.org/software/t/tmux?utm_source=twitterfeed&utm_medium=twitter "使用tmux"
 
 我已经慢慢的开始使用 [tmux][] 来代替 [screen][] 和 [byobu][].

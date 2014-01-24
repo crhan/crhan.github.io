@@ -9,7 +9,7 @@ tags: [Ruhoh, Ruby]
 ---
 [1]: http://en.wikipedia.org/wiki/Atom_(standard) "Atom RSS"
 [2]: http://feedburner.google.com/ "Feed Burner"
-[3]: {{urls.media}}/google_site_verify.png "Google 网站管理员工具-验证网络所有权"
+[3]: {{site.assets}}/google_site_verify.png "Google 网站管理员工具-验证网络所有权"
 [PubHubSubBub]: https://code.google.com/p/pubsubhubbub/ "A simple, open, web-hook-based pubsub protocol & open source reference implementation."
 [Google Reader]: https://www.google.com/reader
 [google_site_verification.rb]: https://github.com/crhan/crhan.ruhoh.com/blob/babaaac3a5630dbceeedc96c4bfe5ea10a46016c/plugins/google_site_verification.rb "/plugins/google_site_verification.rb"

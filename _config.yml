@@ -10,7 +10,7 @@ assets: /assets
 paginate: 10
 paginate_path: "page:num"
 
-production_url: "http://crhan.github.io/"
+production_url: "http://blog.crhan.com/"
 
 disqus:
   shortname: crhan
