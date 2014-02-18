@@ -34,3 +34,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - CNAME
+  - codekit-config.json
