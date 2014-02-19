@@ -34,6 +34,17 @@
       "initialSize" : 148196,
       "fileType" : 8192
     },
+    "\/assets\/PS1.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/PS1.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/PS1.png",
+      "initialSize" : 52810,
+      "fileType" : 8192
+    },
     "\/_resources\/less\/sidebar.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/_resources\/less\/sidebar.less",
@@ -69,17 +80,6 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/assets\/git-status-乱码.png",
       "initialSize" : 172644,
-      "fileType" : 8192
-    },
-    "\/assets\/PS1.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/PS1.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/PS1.png",
-      "initialSize" : 52810,
       "fileType" : 8192
     },
     "\/_includes\/sidebar.html" : {
@@ -306,6 +306,23 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/_resources\/less\/main.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/_resources\/less\/main.less",
+      "outputAbbreviatedPath" : "\/assets\/css\/main.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 0,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 0,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
     "\/assets\/css\/typo.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -315,14 +332,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/_resources\/less\/main.less" : {
+    "\/_resources\/less\/footer.less" : {
       "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/_resources\/less\/main.less",
-      "outputAbbreviatedPath" : "\/assets\/css\/main.css",
+      "inputAbbreviatedPath" : "\/_resources\/less\/footer.less",
+      "outputAbbreviatedPath" : "\/assets\/css\/footer.css",
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 0,
