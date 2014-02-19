@@ -5,16 +5,17 @@ title: I'm Crhan
 
 
 <div id="home">
-  <h1>Blog Posts</h1>
   <!-- This loops through the paginated posts -->
   {% for post in paginator.posts %}
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    <p class="author">
-      <span class="date">{{ post.date|date_to_string}}</span>
-    </p>
-    <div class="content">
-      {{ post.description }}
-    </div>
+    <article ></article>
+    <article itemscope="" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+      <h2 itemprop="headline">
+        <a href="{{post.url}}" rel="bookmark" title="{{post.title}}">
+          {{ post.title }}
+        </a>
+      </h2>
+      <p itemprop="text">{{ post.description }}</p>
+    </article>
   {% endfor %}
 
   <!-- Pagination links -->

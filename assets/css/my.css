@@ -5804,6 +5804,10 @@ button.close {
 .icon-feed:before {
   content: "\e603";
 }
+.sidebar {
+  margin: auto;
+  width: 150px;
+}
 .sidebar .bio-photo {
   margin-top: 2rem;
   width: 150px;
@@ -5812,22 +5816,6 @@ button.close {
 }
 .sidebar .author-social {
   color: #000;
-}
-body,
-html {
-  height: 100%;
-}
-h1 {
-  font-size: 2rem;
-}
-h2 {
-  font-size: 1.8rem;
-}
-h3 {
-  font-size: 1.5rem;
-}
-h4 {
-  font-size: 1.2rem;
 }
 .masthead {
   min-height: 100%;
@@ -5882,9 +5870,29 @@ h4 {
   font-weight: normal;
   text-shadow: 0 0 7px rgba(0, 0, 0, 0.7);
 }
+body,
+html {
+  height: 100%;
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.8rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+h4 {
+  font-size: 1.2rem;
+}
 body {
   -webkit-font-smoothing: antialiased;
 }
 .container {
   position: relative;
+}
+article h2 {
+  margin-bottom: 0px;
+  font-size: 2.0rem;
 }
