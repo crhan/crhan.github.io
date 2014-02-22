@@ -8,9 +8,20 @@
   background-color: #111;
 
   footer {
-    width: 66.6%;
-    margin-left: 25%;
-    margin-right: 25%;
+    width: 83.3333%;
+    margin-left:  8.333%;
+    margin-right: 8.333%;
+
+    @media (min-width: @screen-sm-min) {
+      width: 66.6%;
+      margin-left: 25%;
+      margin-right: 25%;
+    }
+
+    @media (min-width: @screen-lg-min) {
+      width: 44%;
+      margin: auto;
+    }
   }
 
   span {
