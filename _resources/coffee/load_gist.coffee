@@ -15,3 +15,4 @@ $ ->
       for file in orderedGist
         placeHolder.append "<h3>#{file.fileName}</h3>"
         placeHolder.append file.content
+        console.log file.content

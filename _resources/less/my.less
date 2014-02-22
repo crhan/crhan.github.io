@@ -1,9 +1,18 @@
-@import "bootstrap.less";
-@import "variables.less";
-@import "icomoon.less";
 @import "sidebar.less";
 @import "masthead.less";
 @import "footer.less";
+@import "variables.less";
+
+.hide-md {
+  display: none;
+}
+
+
+@media (min-width: @screen-md-min) {
+  .hide-md {
+    display: block;
+  }
+}
 
 body, html {
   height: 100%;

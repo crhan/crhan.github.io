@@ -29,20 +29,9 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/assets\/tmux_split_screen.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/assets\/tmux_split_screen.png",
       "initialSize" : 148196,
-      "fileType" : 8192
-    },
-    "\/assets\/PS1.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/PS1.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/PS1.png",
-      "initialSize" : 52810,
       "fileType" : 8192
     },
     "\/_resources\/less\/sidebar.less" : {
@@ -77,9 +66,20 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/assets\/git-status-乱码.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/assets\/git-status-乱码.png",
       "initialSize" : 172644,
+      "fileType" : 8192
+    },
+    "\/assets\/PS1.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/PS1.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/assets\/PS1.png",
+      "initialSize" : 52810,
       "fileType" : 8192
     },
     "\/_includes\/sidebar.html" : {
@@ -119,7 +119,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/assets\/google_site_verify.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/assets\/google_site_verify.png",
       "initialSize" : 77021,
       "fileType" : 8192
@@ -165,7 +165,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/assets\/girocco_crhan.jpeg",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/assets\/girocco_crhan.jpeg",
       "initialSize" : 51889,
       "fileType" : 4096
@@ -207,29 +207,21 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_resources\/less\/masthead.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/_resources\/less\/masthead.less",
-      "outputAbbreviatedPath" : "\/assets\/css\/masthead.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 1,
-      "strictImports" : 0,
-      "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 0,
-      "hidden" : 0,
-      "strictMath" : 0,
-      "outputStyle" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
     "\/archives\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/archives\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/_includes\/nav.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_includes\/nav.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -268,15 +260,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/_includes\/nav.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_includes\/nav.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/assets\/css\/my.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -286,13 +269,30 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/_resources\/less\/masthead.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/_resources\/less\/masthead.less",
+      "outputAbbreviatedPath" : "\/assets\/css\/masthead.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 0,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
     "\/assets\/vim-powerline.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/assets\/vim-powerline.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/assets\/vim-powerline.png",
       "initialSize" : 219302,
       "fileType" : 8192
@@ -305,6 +305,23 @@
       "inputAbbreviatedPath" : "\/googlef056ebc4b89ca27a.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/_resources\/less\/footer.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/_resources\/less\/footer.less",
+      "outputAbbreviatedPath" : "\/assets\/css\/footer.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 0,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/_resources\/less\/main.less" : {
       "ieCompatibility" : 1,
@@ -332,22 +349,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/_resources\/less\/footer.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/_resources\/less\/footer.less",
-      "outputAbbreviatedPath" : "\/assets\/css\/footer.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 1,
-      "strictImports" : 0,
+    "\/assets\/css\/main.css" : {
       "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 0,
+      "ignore" : 1,
       "hidden" : 0,
-      "strictMath" : 0,
-      "outputStyle" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/main.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -395,7 +404,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/assets\/disable_spotlight_shortcut.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/assets\/disable_spotlight_shortcut.png",
       "initialSize" : 134802,
       "fileType" : 8192
@@ -406,7 +415,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/assets\/time_machine.png",
-      "processed" : 0,
+      "processed" : 1,
       "outputAbbreviatedPath" : "\/assets\/time_machine.png",
       "initialSize" : 170118,
       "fileType" : 8192

@@ -1,6 +1,12 @@
 .sidebar {
   margin: auto;
   width: 150px;
+  transition: all .2s ease;
+
+  ul {
+    list-style: none;
+    padding-left: 0px;
+  }
 
   .bio-photo {
     margin-top: 2rem;
@@ -11,5 +17,17 @@
 
   .author-social {
       color: #000;
+  }
+
+  @media (min-width: @screen-sm-min) and (max-width: @screen-md-min) {
+    & {
+      width: 100px;
+
+      .bio-photo {
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+      }
+    }
   }
 }
