@@ -3,35 +3,8 @@
 @import "footer.less";
 @import "variables.less";
 
-.hide-md {
-  display: none;
-}
-
-
-@media (min-width: @screen-md-min) {
-  .hide-md {
-    display: block;
-  }
-}
-
 body, html {
   height: 100%;
-}
-
-h1 {
-  font-size: 2rem;
-}
-
-h2 {
-  font-size: 1.8rem;
-}
-
-h3 {
-  font-size: 1.5rem;
-}
-
-h4 {
-  font-size: 1.2rem;
 }
 body {
   -webkit-font-smoothing: antialiased;
@@ -44,8 +17,10 @@ body {
 article {
   h2 {
     margin-bottom: 0px;
-    font-size: 2.0rem;
+    font-size: ceil((@font-size-base * 1.5));
+  }
+
+  .desc {
+    color: lighten(@link-color, 20%);
   }
 }
-
-

@@ -10,11 +10,13 @@ title: I'm Crhan
     <article ></article>
     <article itemscope="" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
       <h2 itemprop="headline">
-        <a href="{{post.url}}" rel="bookmark" title="{{post.title}}">
-          {{ post.title }}
-        </a>
+        <strong>
+          <a href="{{post.url}}" rel="bookmark" title="{{post.title}}">
+            {{ post.title }}
+          </a>
+        </strong>
       </h2>
-      <p itemprop="text">{{ post.description }}</p>
+      <p class="desc" itemprop="text">{{ post.description }}</p>
     </article>
   {% endfor %}
 

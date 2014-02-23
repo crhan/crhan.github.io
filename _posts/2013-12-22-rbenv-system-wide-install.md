@@ -1,8 +1,8 @@
 ---
 layout: post
-title: rbenv system wide install (support for multi-user usecase)
+title: rbenv system wide install
 date: '2013-12-22'
-description: 
+description: support for multi-user usecase
 categories: Ruby
 tags: [Ruby]
 uniq_id: rbenv_system_wide_install

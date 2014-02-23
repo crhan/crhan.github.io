@@ -3,7 +3,7 @@ layout: post
 title: 善于使用 bash builtin -- read
 date: '2013-01-04'
 description: 工作半年的一些小积累
-categories: 我的 Linux
+categories: 让你的脚本支持 linux 标准输入管道
 tags: [Linux]
 uniq_id: '2013-01-04'
 ---
