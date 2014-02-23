@@ -45,23 +45,6 @@
       "initialSize" : 52810,
       "fileType" : 8192
     },
-    "\/_resources\/less\/sidebar.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/_resources\/less\/sidebar.less",
-      "outputAbbreviatedPath" : "\/assets\/css\/sidebar.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 1,
-      "strictImports" : 0,
-      "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 0,
-      "hidden" : 0,
-      "strictMath" : 0,
-      "outputStyle" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
     "\/welcome\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -81,6 +64,23 @@
       "outputAbbreviatedPath" : "\/assets\/git-status-乱码.png",
       "initialSize" : 172644,
       "fileType" : 8192
+    },
+    "\/_resources\/less\/sidebar.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/_resources\/less\/sidebar.less",
+      "outputAbbreviatedPath" : "\/assets\/css\/sidebar.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 0,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/_includes\/sidebar.html" : {
       "ignoreWasSetByUser" : 0,
