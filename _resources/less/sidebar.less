@@ -1,6 +1,7 @@
+@gravatar-size: 150px;
 .sidebar {
   margin: auto;
-  width: 150px;
+  width: @gravatar-size;
   transition: all .2s ease;
 
   ul {
@@ -10,9 +11,9 @@
 
   .bio-photo {
     margin-top: 2rem;
-    width: 150px;
-    height: 150px;
-    border-radius: 150px;
+    width: @gravatar-size;
+    height: @gravatar-size;
+    border-radius: @gravatar-size;
   }
 
   .author-social {
@@ -24,14 +25,20 @@
   }
 
   @media (min-width: @screen-sm-min) and (max-width: @screen-md-min) {
+    @gravatar-size: 100px;
     & {
-      width: 100px;
+      width: @gravatar-size;
+    }
 
-      .bio-photo {
-        width: 100px;
-        height: 100px;
-        border-radius: 100px;
-      }
+    h3 {
+      font-size: ceil((@font-size-base * 1.1));
+    }
+
+    .bio-photo {
+      margin-top: 2rem;
+      width: @gravatar-size;
+      height: @gravatar-size;
+      border-radius: @gravatar-size;
     }
   }
 }
