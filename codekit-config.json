@@ -54,17 +54,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/assets\/git-status-乱码.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/git-status-乱码.png",
-      "processed" : 1,
-      "outputAbbreviatedPath" : "\/assets\/git-status-乱码.png",
-      "initialSize" : 172644,
-      "fileType" : 8192
-    },
     "\/_resources\/less\/sidebar.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/_resources\/less\/sidebar.less",
@@ -81,6 +70,17 @@
       "outputStyle" : 0,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/assets\/git-status-乱码.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/git-status-乱码.png",
+      "processed" : 1,
+      "outputAbbreviatedPath" : "\/assets\/git-status-乱码.png",
+      "initialSize" : 172644,
+      "fileType" : 8192
     },
     "\/_includes\/sidebar.html" : {
       "ignoreWasSetByUser" : 0,
@@ -259,15 +259,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/_layouts\/home.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/_layouts\/home.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/_includes\/nav.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -285,6 +276,15 @@
       "inputAbbreviatedPath" : "\/assets\/css\/my.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
+    },
+    "\/_layouts\/home.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/_layouts\/home.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/assets\/vim-powerline.png" : {
       "ignoreWasSetByUser" : 0,
@@ -315,23 +315,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/_resources\/less\/main.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/_resources\/less\/main.less",
-      "outputAbbreviatedPath" : "\/assets\/css\/main.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 0,
-      "strictImports" : 0,
-      "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 0,
-      "hidden" : 0,
-      "strictMath" : 0,
-      "outputStyle" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
     "\/_resources\/less\/footer.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/_resources\/less\/footer.less",
@@ -349,14 +332,22 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/assets\/css\/main.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
+    "\/_resources\/less\/main.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/_resources\/less\/main.less",
+      "outputAbbreviatedPath" : "\/assets\/css\/main.css",
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/main.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 0,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 0,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -366,6 +357,15 @@
       "inputAbbreviatedPath" : "\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/assets\/css\/main.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/main.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/assets\/js\/jquery.gist.js" : {
       "ignoreWasSetByUser" : 0,
