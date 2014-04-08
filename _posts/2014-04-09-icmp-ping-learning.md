@@ -60,6 +60,14 @@ Sequence Number 来帮助判断发出去包的个数和收到包的标识
 
 参考 Code: [djberg96/net-ping:lib/net/ping/icmp.rb][6]
 
+## 这个 Bug
+
+最后提一下之前说的 Bug. 究其原因就是之前实现的时候, 在生成 Identifier
+的时候生硬的使用了 pid, 所以在 multi-thread 的情况下因为拿到了相同的 pid,
+导致程序无法分辨到底是哪一个 thread 发出的 ICMP 请求被返回了, 于是就出错了.
+
+解决方案也十分的简单: 使用 thread_id 即可
+
 [1]: https://github.com/djberg96/net-ping "net-ping"
 [2]: https://github.com/djberg96/net-ping/issues/22 "net-ping return inaccurate result with multithreading."
 [3]: http://en.wikipedia.org/wiki/Internet_Control_Message_Protocol
