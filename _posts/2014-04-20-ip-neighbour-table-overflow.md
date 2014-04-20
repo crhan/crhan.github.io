@@ -72,12 +72,14 @@ sysctl -w net.ipv4.neigh.default.gc_thresh3=2048
 
 ### 参考资料
 
-* [No buffer space available and tuning with sysctl][1]
-* [iptables 网关机 ping 提示 No buffer space available][2]
+* [ServerFault: No buffer space available and tuning with sysctl][1]
+* [StackOverflow: Configuring ARP age timeout][5]
 * [ip neighbor: Appendix B. Ethernet Layer Tools][3]
 * [Kernel: Neighbour table overflow][4]
+* [iptables 网关机 ping 提示 No buffer space available][2]
 
 [1]: http://serverfault.com/questions/505964/no-buffer-space-available-and-tuning-with-sysctl "No buffer space available and tuning with sysctl"
 [2]: http://bbs.chinaunix.net/thread-2208434-1-1.html "iptables 网关机 ping 提示 No buffer space available"
 [3]: http://linux-ip.net/html/tools-ip-neighbor.html "ip neighbor: Appendix B. Ethernet Layer Tools"
 [4]: http://www.e-rave.nl/kernel-neighbour-table-overflow "Kernel: Neighbour table overflow"
+[5]: http://stackoverflow.com/questions/15372011/configuring-arp-age-timeout "Configuring ARP age timeout"
